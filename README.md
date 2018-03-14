@@ -8,7 +8,7 @@ How do you build complex UI while merging small PRs without breaking the product
 
 - If designing an entirely new page you can create a separate route for the new page, like "my.app/profile/newFormTest" and then edit the route when you are ready to merge and deploy to production. 
 
-These solutions work and should be encouraged, but WIP-it allows you to simply wrap the new component you are building and the current component in a `WIP` component. Then by adding a query string in the url such as "http://localhost:3000/?version=test1" you can render your current "Work in Progress" component. Simply remove the query string to go back to the current component. When your work is completed and you are ready to merge or deploy, simply remove the `WIP` component and the old component. Walla! 
+These solutions work and should be encouraged, but WIP-it allows you to simply wrap the new component you are building and the current component in a `WIP` component. Then by adding a query string in the url such as "http://localhost:3000/?version=test1" you can render your current "Work in Progress" component. Simply remove the query string to go back to the current component. When your work is completed and you are ready to merge or deploy, simply remove the `WIP` component and the old component. WIP it! 
 
 
 **NOTE: The query string must have the key `version`, the value can be anyting to your liking**
