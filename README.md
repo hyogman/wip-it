@@ -1,5 +1,5 @@
 # WIP-it
-React component to help version control for WIP components using URI query string
+React component to help version control for WIP components using URI query strings
 
 `yarn add wip-it`
 
