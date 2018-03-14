@@ -1,9 +1,9 @@
 # WIP-it
+![79052-200](https://user-images.githubusercontent.com/6344422/37413543-933fc00e-27a7-11e8-9405-9b64d599fad4.png)
+
 React component to help version control for WIP components using URI query strings
 
 `yarn add wip-it`
-
-![79052-200](https://user-images.githubusercontent.com/6344422/37413543-933fc00e-27a7-11e8-9405-9b64d599fad4.png)
 
 ## About
 How do you build complex UI while merging small PRs without breaking the production app during continuous deployment? There are many strategies, for example:

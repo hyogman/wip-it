@@ -2,7 +2,7 @@
   "name": "wip-it",
   "version": "0.0.1",
   "description":
-    "React component to help version control for WIP components using URI query string",
+    "React component to help version control for WIP components using URI query strings",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
