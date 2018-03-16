@@ -10,7 +10,7 @@ How do you build complex UI while merging small PRs without breaking the product
 
 - If you are building smaller components you can first build the UI for the component in a separate ecosystem such as Storybook, so merging PRs won't affect the app. Then when most of the work is completed you can plug the component into the app with all of its logic in the last few PRs. 
 
-- If designing an entirely new page you can create a separate route for the new page, like "my.app/profile/newFormTest" and then edit the route when you are ready to merge and deploy to production. 
+- If designing an entirely new page you can create a separate route for the new page, like "my.app/profile/newformtest" and then edit the route when you are ready to merge and deploy to production. 
 
 These solutions work and should be encouraged, but WIP-it allows you to simply wrap the new component you are building and the current component in a `WIP` component. Then by adding a query string in the url such as "http://localhost:3000/?version=test1" you can render your current "Work in Progress" component with conditional rendering. Simply remove the query string to go back to the current component and remove the `WIP` logic when you are ready to delete the legacy component. WIP-it allows you to experiment with new UI components while keeping production and continuous deployment safe and flowing. WIP it! 
 
