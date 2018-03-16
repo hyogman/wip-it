@@ -12,7 +12,7 @@ How do you build complex UI while merging small PRs without breaking the product
 
 - If designing an entirely new page you can create a separate route for the new page, like "my.app/profile/newformtest" and then edit the route when you are ready to merge and deploy to production. 
 
-These solutions work and should be encouraged, but WIP it allows you to simply wrap the new component you are building and the current component in a `WIP` component. Then by adding a query string in the url such as "http://localhost:3000/?version=test1" you can render your current "Work in Progress" component with conditional rendering. Simply remove the query string to go back to the current component and remove the `WIP` logic when you are ready to delete the legacy component. WIP-it allows you to experiment with new UI components while keeping production and continuous deployment safe and flowing. WIP it! 
+These solutions work and should be encouraged, but WIP it allows you to simply wrap the new component you are building and the current component in a `WIP` component. Then by adding a query string in the url such as "http://localhost:3000/?version=test1" you can render your current "Work in Progress" component with conditional rendering. Simply remove the query string to go back to the current component and remove the `WIP` logic when you are ready to delete the legacy component. WIP it allows you to experiment with new UI components while keeping production and continuous deployment safe and flowing. WIP it! 
 
 
 **NOTE: The query string must have the key `version`, the value can be anyting to your liking**
