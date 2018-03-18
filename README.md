@@ -8,7 +8,7 @@ React component to help version control for WIP components using URI query strin
 ## About
 How do you build complex UI while merging small PRs without breaking the production app during continuous deployment? There are many strategies, for example:
 
-- If you are building smaller components you can first build the UI for the component in a separate ecosystem such as Storybook, so merging PRs won't affect the app. Then when most of the work is completed you can plug the component into the app with all of its logic in the last few PRs. 
+- If you are building smaller components you can first build the UI for the component in a separate ecosystem such as [Storybook](https://github.com/storybooks/storybook), so merging PRs won't affect the app. Then when most of the work is completed you can plug the component into the app with all of its logic in the last few PRs. 
 
 - If designing an entirely new page you can create a separate route for the new page, like "my.app/profile/newformtest" and then edit the route when you are ready to merge and deploy to production. 
 
